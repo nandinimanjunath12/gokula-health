@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #2d5a27; /* Forest Green */
+  --color-secondary: #f4f1ea; /* Creamy off-white */
+  --color-accent: #d4a373; /* Earthy brown */
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Libre Baskerville", serif;
+}
+
+@layer base {
+  body {
+    @apply bg-[var(--color-secondary)] text-[#1a1c1e] font-sans antialiased;
+  }
+}
+
+.health-card-gradient {
+  background: linear-gradient(135deg, #2d5a27 0%, #1e3d1a 100%);
+}

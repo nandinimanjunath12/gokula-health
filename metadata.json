@@ -1,0 +1,12 @@
+{
+  "name": "Gokula-Health",
+  "description": "A digital health card for cattle helping small-scale farmers track milk yield, vaccinations, and breeding cycles.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "Livestock Management",
+    "Data Visualization",
+    "Automated Reminders"
+  ]
+}
